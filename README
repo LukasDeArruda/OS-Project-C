@@ -1,0 +1,6 @@
+I completed all parts of this assignment, collaborating with Nick Souza
+on the final step. To compile, run buildos.sh. Running the OS in the simulator
+will prompt the user to enter a command. Enterring text will echo it back 
+(backspace does function as well). After the readSector message gets printed,
+interrupt 21 is called, allowing the user to use readLine (there won't be a 
+propmt there). That is then also echoed by interrupt 21.
